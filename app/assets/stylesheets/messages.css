@@ -29,16 +29,13 @@
   padding: 20px 0 30px;
 }
 
-.room-name a{
-  color:white;
-  text-decoration: none;
-}
-
-.chat_create{
+.chat_create a{
   padding: 14px;
   font-size: 10px;
   color: deepskyblue;
   border: 1px solid lightblue;
+  text-decoration: none;
+  color:white;
   text-decoration: none;
 }
 
