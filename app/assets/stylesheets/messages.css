@@ -17,16 +17,20 @@
   align-items: center;
 }
 
-.user_name a{
+.room a{
   padding-left: 20px;
   color: #fafafa;
   font-size: 16px;
   text-decoration: none;
 }
 
-.room{
+.room {
   overflow: scroll;
   padding: 20px 0 30px;
+  padding-left: 20px;
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .chat_create a{
