@@ -5,20 +5,7 @@
   </div>
 </div>
 <div class="chat_main">
-  <div class="chat_main_1">
-    <div class="name_day">
-      <div class="chat_main_name">Tom</div>
-      <div class="chat_main_day">2020/3/31(Wed) 12:43:30</div>
-    </div>
-    <div class="message">おはよう</div>
-  </div>
-  <div class="chat_main_1">
-    <div class="name_day">
-      <div class="chat_main_name">Sum</div>
-      <div class="chat_main_day">2020/3/31(Wed) 12:43:30</div>
-    </div>
-    <div class="message">Hello!</div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 <%= form_with model: [@room, @message], html: {class: "form"}, local: true do |f|%>
   <div class="form-input">
